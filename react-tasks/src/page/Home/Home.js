@@ -32,6 +32,12 @@ function Home(){
         <p><Link to = "/task26">Задача:26</Link></p>
         <p><Link to = "/task27">Задача:27</Link></p>
         <p><Link to = "/task28">Задача:28</Link></p>
+        <p><Link to = "/task33">Задача:33</Link></p>
+        <p><Link to = "/task34">Задача:34</Link></p>
+        <p><Link to = "/task35">Задача:35</Link></p>
+        <p><Link to = "/task36">Задача:36</Link></p>
+        <p><Link to = "/task37">Задача:37</Link></p>
+        <p><Link to = "/task38">Задача:38</Link></p>
         </>
     )
 }
