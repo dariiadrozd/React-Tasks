@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 
-function Task42() {
+function Task43() {
 
     const [flag, setFlag] = useState('')
     const [result, setResult] = useState(null)
@@ -21,7 +21,7 @@ function Task42() {
 
     return (
         <>
-            <h1>Задача 42</h1>
+            <h1>Задача 43</h1>
 
             <p>сделайте инпут в который вводится математическое выражение
                 по клику на кнопку посчитать результат мат выражения (eval()) и отобразить  результат в h1</p>
@@ -35,4 +35,4 @@ function Task42() {
     )
 }
 
-export default Task42
+export default Task43
