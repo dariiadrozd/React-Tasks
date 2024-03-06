@@ -46,6 +46,11 @@ import Task49 from './page/Task49/Task49';
 import Task50 from './page/Task50/Task50';
 import Task51 from './page/Task51/Task51';
 import Task52 from './page/Task52/Task52';
+import Task53 from './page/Task53/Task53';
+import Task54 from './page/Task54/Task54';
+import Task55 from './page/Task55/Task55';
+import Task56 from './page/Task56/Task56';
+
 
 import Task72 from './page/Task72/Task72';
 import Task73 from './page/Task73/Task73';
