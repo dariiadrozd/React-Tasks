@@ -62,7 +62,11 @@ import Task78 from './page/Task78/Task78';
 import Task79 from './page/Task79/Task79';
 import Task80 from './page/Task80/Task80';
 import Task81 from './page/Task81/Task81';
-import { Task78Context,Task79Context,Task80Context } from "./Context/Context";
+import Task82 from './page/Task82/Task82';
+import Task83 from './page/Task83/Task83';
+import Task84 from './page/Task84/Task84';
+import Task85 from './page/Task85/Task85';
+import { Task78Context,Task79Context,Task80Context, Task81Context } from "./Context/Context";
 import { useState } from "react";
 
 function App() {
@@ -81,6 +85,7 @@ const objWeather = {
   humidity: '80%',
   windSpeed: '50'
 }
+
 
   return (
     <div>
@@ -133,6 +138,10 @@ const objWeather = {
           <Route path="/task50" element={<Task50></Task50>}></Route>
           <Route path="/task51" element={<Task51></Task51>}></Route>
           <Route path="/task52" element={<Task52></Task52>}></Route>
+          <Route path="/task53" element={<Task53></Task53>}></Route>
+          <Route path="/task54" element={<Task54></Task54>}></Route>
+          <Route path="/task55" element={<Task55></Task55>}></Route>
+          <Route path="/task56" element={<Task56></Task56>}></Route>
 
           <Route path="/task72" element={<Task72></Task72>}></Route>
           <Route path="/task73" element={<Task73></Task73>}></Route>
@@ -142,6 +151,10 @@ const objWeather = {
           <Route path="/task77" element={<Task77></Task77>}></Route>
           <Route path="/task78" element={<Task78></Task78>}></Route>
           <Route path="/task81" element={<Task81></Task81>}></Route>
+          <Route path="/task82" element={<Task82></Task82>}></Route>
+          <Route path="/task83" element={<Task83></Task83>}></Route>
+          <Route path="/task84" element={<Task84></Task84>}></Route>
+          <Route path="/task85" element={<Task85></Task85>}></Route>
         </Routes>
       </Task78Context.Provider>
 
@@ -157,8 +170,6 @@ const objWeather = {
         </Routes>
       </Task80Context.Provider>
 
-
-      
     </div>
 
   );
